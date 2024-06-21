@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="assets/css/build/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/build/fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Name</title>
+    <meta name='keywords' content='' />
+    <meta name='description' content='' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <script src="assets/js/build/swiper-bundle.min.js" defer></script> 
+    <script src="assets/js/build/fancybox.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="plashka header__plashka">
+            <div class="container header__plashka-height">
+                <div class="header__plashka_row">
+                    <p class="plashka__text">Имеются противопоказания, необходимо проконсультироваться со специалистом. 18+</p>
+                    <div class="header__plashka_right">
+                        <button class="plashka__search popup-btn" data-path="popup__search">
+                            <img src="assets/img/icons/search.svg" alt="search">
+                        </button>
+                        <button class="plashka__version">
+                            <img src="assets/img/icons/eye.svg" alt="">
+                            <span>Версия для слабовидящих</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__inner">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top_row">
+                        <div class="header__top_right">
+                            <nav class="header__top_nav">
+                                <ul class="header__top_list">
+                                    <li class="header__nav_item hide-item">
+                                        <button class="header__nav_link header__link hide-item__link">О нас</button>
+                                        <div class="hide-item__content header__content">
+                                            <ul class="header__submenu header__submenu-top">
+                                                <li class="header__sublink"><a href="services.html">Услуги</a></li>
+                                                <li class="header__sublink"><a href="doctors.html">Врачи</a></li>
+                                                <li class="header__sublink"><a href="doctor.html">Страница врача</a></li>
+                                                <li class="header__sublink"><a href="articles.html">Блог</a></li>
+                                                <li class="header__sublink"><a href="article.html">Статья</a></li>
+                                                <li class="header__sublink"><a href="comments.html">Отзывы</a></li>
+                                                <li class="header__sublink"><a href="contacts.html">Контакты</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="header__nav_item"><a href="#" class="header__nav_link nav__link">Цены</a></li>
+                                    <li class="header__nav_item"><a href="#" class="header__nav_link nav__link">Контакты</a></li>
+                                    <li class="header__nav_item"><a href="#" class="header__nav_link nav__link">Отзывы</a></li>
+                                </ul>
+                            </nav>
+
+                            <div class="header__top_contacts">
+                                <a href="#" class="header__contacts_link">
+                                    <img src="assets/img/icons/Vk.svg" alt="vk" class="header__top_contact">                                    
+                                </a>
+                                <a href="#" class="header__contacts_link">
+                                    <img src="assets/img/icons/Odnoklassniki.svg" alt="ok" class="header__top_contact">                                    
+                                </a>
+                                <a href="#" class="header__contacts_link">
+                                    <img src="assets/img/icons/Telegram.svg" alt="tg" class="header__top_contact">
+                                </a>
+                            </div>                            
+                        </div>
+
+                        <div class="header__top_btns">
+                            <button class="standart-btn white-btn header__top_btn popup-btn" data-path="popup-call">
+                                <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.6111 9.6C11.6132 9.60006 12.5767 9.99803 13.3005 10.7109C14.0243 11.4238 14.4526 12.3966 14.4961 13.4264L14.5 13.6V14.4C14.5001 14.8037 14.3519 15.1925 14.0851 15.4884C13.8182 15.7844 13.4525 15.9657 13.0611 15.996L12.9444 16H2.05556C1.66311 16.0001 1.28511 15.8477 0.997352 15.5732C0.709588 15.2987 0.533323 14.9225 0.503889 14.52L0.5 14.4V13.6C0.500058 12.5692 0.886977 11.5783 1.58007 10.8338C2.27316 10.0893 3.21892 9.64874 4.22011 9.604L4.38889 9.6H10.6111ZM7.5 0C8.5314 0 9.52055 0.421427 10.2499 1.17157C10.9792 1.92172 11.3889 2.93913 11.3889 4C11.3889 5.06087 10.9792 6.07828 10.2499 6.82843C9.52055 7.57857 8.5314 8 7.5 8C6.4686 8 5.47945 7.57857 4.75014 6.82843C4.02083 6.07828 3.61111 5.06087 3.61111 4C3.61111 2.93913 4.02083 1.92172 4.75014 1.17157C5.47945 0.421427 6.4686 0 7.5 0Z" />
+                                </svg>
+                                <span>Вызвать врача</span>                                
+                            </button>
+                            <button class="standart-btn header__top_btn popup-btn" data-path="popup-call">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7694 15.9977C10.6157 15.9553 7.34601 15.5034 3.92173 12.0799C0.498241 8.65562 0.0471701 5.38676 0.00390585 4.23224C-0.0601894 2.47283 1.28741 0.76389 2.84413 0.0964986C3.03159 0.0155519 3.23687 -0.015267 3.43984 0.00706618C3.6428 0.0293994 3.83647 0.104117 4.00185 0.223888C5.28375 1.15808 6.16826 2.57138 6.92779 3.68263C7.09491 3.92677 7.16636 4.22387 7.12854 4.5173C7.09071 4.81074 6.94625 5.08 6.72269 5.27379L5.15957 6.43472C5.08405 6.48925 5.03089 6.56934 5.00996 6.66011C4.98904 6.75088 5.00177 6.84616 5.0458 6.92825C5.39992 7.57161 6.02966 8.52983 6.75073 9.2509C7.4726 9.97197 8.47569 10.6434 9.16391 11.0376C9.25021 11.086 9.35177 11.0995 9.44774 11.0754C9.54371 11.0513 9.62678 10.9913 9.67988 10.9078L10.6974 9.35906C10.8845 9.11057 11.1604 8.9441 11.4675 8.89452C11.7745 8.84493 12.0889 8.91608 12.3446 9.09307C13.4719 9.87343 14.7875 10.7427 15.7505 11.9757C15.88 12.1423 15.9624 12.3406 15.989 12.5499C16.0156 12.7592 15.9856 12.9718 15.9019 13.1655C15.2313 14.7302 13.5344 16.0626 11.7694 15.9977Z" fill="#F8FAF7" />
+                                </svg>
+                                <span>Обратный звонок</span>
+                            </button>
+                        </div>                            
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__midle">
+                <div class="container">
+                    <div class="header__midle_row">
+                        <div class="header__midle_right">
+                            <a href="index.html" class="header__logo logo">
+                                <picture class="logo__picture">
+                                    <source srcset="assets/img/Logo.svg" type="image/svg+xml">
+                                    <img src="assets/img/Logo.png">
+                                </picture>
+                            </a>        
+
+                            <div class="header__mobile-wrapper">
+                                <div class="header__midle_info">
+                                    <a href="#" class="header__btn-phone--mobile popup-btn" data-path="popup__search">
+                                        <img src="assets/img/icons/search.svg" class="header__midle_img--search">
+                                    </a>
+                                    <a href="tel:88000000000" class="header__btn-phone--mobile">
+                                        <img src="assets/img/icons/phone.svg" class="header__midle_img--phone">
+                                    </a>
+                                    <div class="burger__menu">
+                                        <span> </span>
+                                        <span> </span>
+                                        <span> </span>
+                                    </div>                                    
+                                </div>
+                            </div>
+
+                            <div class="header__under-logoo">
+                                <div class="header__under-logo">
+                                    <p class="header__under-logo_text">Круглосуточная работа 24/7</p>
+                                    <p class="header__under-logo_text">Анонимный прием</p>
+                                </div>                                 
+                            </div>
+
+                            <div class="header__mobile-wrapper">
+                                <div class="header__midle_btns">
+                                    <button class="standart-btn white-btn header__midle_btn--mobile popup-btn" data-path="popup__call">Вызвать врача</button>
+                                    <button class="standart-btn header__midle_btn--mobile popup-btn" data-path="popup__call">Обратный звонок</button>
+                                </div> 
+                            </div>                             
+                        </div>
+
+
+                        <div class="header__midle_left">
+                            <div class="header__midle_adres">
+                                <img src="assets/img/icons/location.svg" class="header__midle_img">
+                                <p class="header__midle_text">Адрес call-центра:</p>
+                                <p class="header__midle_info"><a href="#" class="popup-btn" data-path="popup__city">Новокузнецк,</a> ул. Степана Разина, д. 40/89</p>
+                            </div>
+                            <div class="header__midle_license">
+                                <img src="assets/img/icons/license.svg" class="header__midle_img">
+                                <p class="header__midle_text">Медицинская лицензия:</p>
+                                <p class="header__midle_info">№ Л041-01137-77/00293272</p>
+                            </div>
+                            <div class="header__midle_phone">
+                                <img src="assets/img/icons/phone.svg" class="header__midle_img">
+                                <p class="header__midle_text">Номер горячей линии:</p>
+                                <a href="tel:88000000000" class="header__midle_info-phone">8 (800) 000-00-00</a>
+                            </div>
+                        </div>
+                    </div>                        
+                </div>
+            </div>
+
+            <div class="header__bottom">
+                <div class="container">
+                    <nav class="header__bottom_nav">
+                        <ul class="header__bottom_list">
+                            <li class="header__nav_item hide-item">
+                                <button class="header__nav_link header__link hide-item__link">Алкоголизм</button>
+                                <div class="hide-item__content header__content">
+                                    <ul class="header__submenu">
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение пивного алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение женского алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Принудительное лечение</a></li>
+                                        <li class="header__sublink"><a href="#">Кодирование алкоголизма</a></li>
+
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение пивного алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение женского алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Принудительное лечение</a></li>
+                                        <li class="header__sublink"><a href="#">Кодирование алкоголизма</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="header__nav_item hide-item">
+                                <button class="header__nav_link header__link hide-item__link">Наркомания</button>
+                                <div class="hide-item__content header__content">
+                                    <ul class="header__submenu">
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение пивного алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение женского алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Принудительное лечение</a></li>
+                                        <li class="header__sublink"><a href="#">Кодирование алкоголизма</a></li>
+
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение пивного алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение женского алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Принудительное лечение</a></li>
+                                        <li class="header__sublink"><a href="#">Кодирование алкоголизма</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="header__nav_item hide-item">
+                                <button class="header__nav_link header__link hide-item__link">Вывод из запоя</button>
+                                <div class="hide-item__content header__content">
+                                    <ul class="header__submenu">
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение пивного алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение женского алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Принудительное лечение</a></li>
+                                        <li class="header__sublink"><a href="#">Кодирование алкоголизма</a></li>
+
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение пивного алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение женского алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Принудительное лечение</a></li>
+                                        <li class="header__sublink"><a href="#">Кодирование алкоголизма</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="header__nav_item hide-item">
+                                <button class="header__nav_link header__link hide-item__link">Кодирование</button>
+                                <div class="hide-item__content header__content">
+                                    <ul class="header__submenu">
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение пивного алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение женского алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Принудительное лечение</a></li>
+                                        <li class="header__sublink"><a href="#">Кодирование алкоголизма</a></li>
+
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение пивного алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение женского алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Принудительное лечение</a></li>
+                                        <li class="header__sublink"><a href="#">Кодирование алкоголизма</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="header__nav_item hide-item">
+                                <button class="header__nav_link header__link hide-item__link">Нарколог на дом</button>
+                                <div class="hide-item__content header__content">
+                                    <ul class="header__submenu">
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение пивного алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение женского алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Принудительное лечение</a></li>
+                                        <li class="header__sublink"><a href="#">Кодирование алкоголизма</a></li>
+
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение пивного алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение женского алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Принудительное лечение</a></li>
+                                        <li class="header__sublink"><a href="#">Кодирование алкоголизма</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="header__nav_item hide-item">
+                                <button class="header__nav_link header__link hide-item__link">Реабилитация</button>
+                                <div class="hide-item__content header__content">
+                                    <ul class="header__submenu">
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение пивного алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение женского алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Принудительное лечение</a></li>
+                                        <li class="header__sublink"><a href="#">Кодирование алкоголизма</a></li>
+
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение пивного алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение женского алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Принудительное лечение</a></li>
+                                        <li class="header__sublink"><a href="#">Кодирование алкоголизма</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="header__nav_item hide-item">
+                                <button class="header__nav_link header__link hide-item__link">Другие зависимости</button>
+                                <div class="hide-item__content header__content">
+                                    <ul class="header__submenu">
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение пивного алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение женского алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Принудительное лечение</a></li>
+                                        <li class="header__sublink"><a href="#">Кодирование алкоголизма</a></li>
+
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение пивного алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение женского алкоголизма</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Лечение алкоголизма в стационаре</a></li>
+                                        <li class="header__sublink"><a href="#">Принудительное лечение</a></li>
+                                        <li class="header__sublink"><a href="#">Кодирование алкоголизма</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+
+                            <div class="header-mobile__wrapper">
+                                <li class="header__nav_item hide-item">
+                                    <div class="header-mobile__wrapper">
+                                        <button class="header__nav_link header__link hide-item__link">О нас</button>
+                                        <div class="hide-item__content header__content">
+                                            <ul class="header__submenu">
+                                                <li class="header__sublink"><a href="services.html">Услуги</a></li>
+                                                <li class="header__sublink"><a href="doctors.html">Врачи</a></li>
+                                                <li class="header__sublink"><a href="doctor.html">Сьраница врача</a></li>
+                                                <li class="header__sublink"><a href="articles.html">Блог</a></li>
+                                                <li class="header__sublink"><a href="article.html">Статья</a></li>
+                                                <li class="header__sublink"><a href="comments.html">Отзывы</a></li>
+                                                <li class="header__sublink"><a href="contacts.html">Контакты</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__nav_item">
+                                    <div class="header-mobile__wrapper">
+                                        <a href="#" class="header__nav_link header__link ">Цены</a>
+                                    </div>
+                                </li>
+                                <li class="header__nav_item">
+                                    <div class="header-mobile__wrapper">
+                                        <a href="#" class="header__nav_link header__link ">Контакты</a>
+                                    </div>
+                                </li>
+                                <li class="header__nav_item">
+                                    <div class="header-mobile__wrapper">
+                                        <a href="#" class="header__nav_link header__link ">Отзывы</a>
+                                    </div>
+                                </li>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="header-mobile__wrapper">
+                    <div class="header-mobile__content">
+                        <div class="header-mobile__top">
+                            <div class="header-mobile__top_row">
+                                <a href="tel:88000000000" class="header-mobile__phone">8 (800) 000-00-00</a>
+                                
+                                <div class="header-mobile__contacts">
+                                    <a href="#" class="header__contacts_link">
+                                        <img src="assets/img/icons/Vk.svg" alt="vk" class="header__top_contact">                                    
+                                    </a>
+                                    <a href="#" class="header__contacts_link">
+                                        <img src="assets/img/icons/Odnoklassniki.svg" alt="ok" class="header__top_contact">                                    
+                                    </a>
+                                    <a href="#" class="header__contacts_link">
+                                        <img src="assets/img/icons/Telegram.svg" alt="tg" class="header__top_contact">
+                                    </a>
+                                </div>   
+                            </div>
+
+                            <button class="plashka__version">
+                                <img src="assets/img/icons/eye.svg" alt="">
+                                <span>Версия для слабовидящих</span>
+                            </button>
+                        </div>
+
+                        <div class="header-mobile__middle">
+                            <div class="header-mobile__info">
+                                <div class="header__midle_adres">
+                                    <img src="assets/img/icons/location.svg" class="header__midle_img">
+                                    <p class="header__midle_text">Адрес call-центра:</p>
+                                    <p class="header-mobile__midle_info"><a href="#" class="popup-btn" data-path="popup__city">Новокузнецк,</a> ул. Степана Разина, д. 40/89</p>
+                                </div>
+                                <div class="header__midle_license">
+                                    <img src="assets/img/icons/license.svg" class="header__midle_img">
+                                    <p class="header__midle_text">Электронная почта:</p>
+                                    <a class="header-mobile__midle_info header-mobile__midle_info--mail">info@centr-narkomanii.ru</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="header-mobile__btns">
+                            <button class="standart-btn white-btn header-mobile__btn popup-btn" data-path="popup__call">
+                                <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.6111 9.6C11.6132 9.60006 12.5767 9.99803 13.3005 10.7109C14.0243 11.4238 14.4526 12.3966 14.4961 13.4264L14.5 13.6V14.4C14.5001 14.8037 14.3519 15.1925 14.0851 15.4884C13.8182 15.7844 13.4525 15.9657 13.0611 15.996L12.9444 16H2.05556C1.66311 16.0001 1.28511 15.8477 0.997352 15.5732C0.709588 15.2987 0.533323 14.9225 0.503889 14.52L0.5 14.4V13.6C0.500058 12.5692 0.886977 11.5783 1.58007 10.8338C2.27316 10.0893 3.21892 9.64874 4.22011 9.604L4.38889 9.6H10.6111ZM7.5 0C8.5314 0 9.52055 0.421427 10.2499 1.17157C10.9792 1.92172 11.3889 2.93913 11.3889 4C11.3889 5.06087 10.9792 6.07828 10.2499 6.82843C9.52055 7.57857 8.5314 8 7.5 8C6.4686 8 5.47945 7.57857 4.75014 6.82843C4.02083 6.07828 3.61111 5.06087 3.61111 4C3.61111 2.93913 4.02083 1.92172 4.75014 1.17157C5.47945 0.421427 6.4686 0 7.5 0Z" />
+                                </svg>
+                                <span>Вызвать врача</span>
+                            </button>
+                            <button class="standart-btn header-mobile__btn popup-btn" data-path="popup__call">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7694 15.9977C10.6157 15.9553 7.34601 15.5034 3.92173 12.0799C0.498241 8.65562 0.0471701 5.38676 0.00390585 4.23224C-0.0601894 2.47283 1.28741 0.76389 2.84413 0.0964986C3.03159 0.0155519 3.23687 -0.015267 3.43984 0.00706618C3.6428 0.0293994 3.83647 0.104117 4.00185 0.223888C5.28375 1.15808 6.16826 2.57138 6.92779 3.68263C7.09491 3.92677 7.16636 4.22387 7.12854 4.5173C7.09071 4.81074 6.94625 5.08 6.72269 5.27379L5.15957 6.43472C5.08405 6.48925 5.03089 6.56934 5.00996 6.66011C4.98904 6.75088 5.00177 6.84616 5.0458 6.92825C5.39992 7.57161 6.02966 8.52983 6.75073 9.2509C7.4726 9.97197 8.47569 10.6434 9.16391 11.0376C9.25021 11.086 9.35177 11.0995 9.44774 11.0754C9.54371 11.0513 9.62678 10.9913 9.67988 10.9078L10.6974 9.35906C10.8845 9.11057 11.1604 8.9441 11.4675 8.89452C11.7745 8.84493 12.0889 8.91608 12.3446 9.09307C13.4719 9.87343 14.7875 10.7427 15.7505 11.9757C15.88 12.1423 15.9624 12.3406 15.989 12.5499C16.0156 12.7592 15.9856 12.9718 15.9019 13.1655C15.2313 14.7302 13.5344 16.0626 11.7694 15.9977Z" fill="#F8FAF7" />
+                                </svg>
+                                <span>Обратный звонок</span>
+                            </button>
+                        </div>                         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="doctor-page page-top">
+            <div class="container page-container">
+                <img src="assets/img/icons/page-bg-doctors.svg"class="page-top__bg">
+                <ul class="breadcrumbs">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Врачи клиники</a></li>
+                    <li>Галадриев Роман Сергеевич</li>
+                </ul>
+                <h1 class="title title-right page-title">Галадриев Роман Сергеевич</h1>                
+            </div>
+        </section>
+
+        <section class="page-doctor page-section">
+            <div class="container">
+                <div class="page-doctor__card">
+                    <div class="page-doctor__photo">
+                        <div class="doctors__bg">
+                            <img class="doctors__bg_icon" src="assets/img/icons/doctors-bg.svg">
+                            <img class="doctors__bg_icon" src="assets/img/icons/doctors-bg.svg">
+                            <img class="doctors__bg_icon" src="assets/img/icons/doctors-bg.svg">
+
+                            <div class="doctors__photo page-doctors__photo">
+                                <img src="assets/img/sections/doctors/doctors-photo-big-1.png" alt="" class="doctors__photoo doctors__photoo--big">
+                                <p class="doctors__category">Врач 1 категории</p>
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <div class="page-doctor__content">
+                        <div class="page-doctor__info">
+                            <div class="page-doctor__info_main">
+                                <div class="page-doctor__info_item">
+                                    <div class="page-doctor__info_title">
+                                        <img src="assets/img/icons/page-doctor-icon-1.svg" alt="">
+                                        <p>Общая информация о враче</p>
+                                    </div>
+                                    <p class="page-doctor__info_text">Противоположная точка зрения подразумевает, что диаграммы связей неоднозначны и будут ассоциативно распределены по отраслям. Господа, перспективное планирование прекрасно подходит для реализации приоретизации разума над эмоциями. Картельные сговоры не допускают ситуации, при которой элементы политического процесса объективно рассмотрены соответствующими инстанциями!</p>
+                                </div>
+
+                                <div class="page-doctor__info_item">
+                                    <div class="page-doctor__info_title">
+                                        <img src="assets/img/icons/page-doctor-icon-2.svg" alt="">
+                                        <p>Специальность</p>
+                                    </div>
+                                    <p class="page-doctor__info_text">Главный врач клиники, врач-нарколог, психиатр</p>
+                                </div>
+
+                                <div class="page-doctor__info_item">
+                                    <div class="page-doctor__info_title">
+                                        <img src="assets/img/icons/page-doctor-icon-3.svg" alt="">
+                                        <p>Стаж работы</p>
+                                    </div>
+                                    <p class="page-doctor__info_text">12 лет</p>
+                                </div>
+                            </div>
+
+                            <div class="page-doctor__info_bottom">
+                                <div class="page-doctor__info_btns">
+                                    <button class="standart-btn page-doctor__info_btn">
+                                        <img src="assets/img/icons/btn-phone.svg">
+                                        <span>Записаться на прием</span>
+                                    </button>
+                                    <p class="page-doctor__info_btn page-doctor__info_btn-cost">Прием врача от 1500 ₽</p>
+                                </div>
+                                <div class="page-doctor__info_rating">
+                                    <p class="page-doctor__info_rating-text">Рейтинг врача: <span>4.8</span></p>
+                                    <img src="assets/img/icons/prodoctorov.svg" alt="ProDoctorov" class="page-doctor__info_rating-icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div></div>
+                    <div class="page-doctor__schedule">
+                        <p class="page-doctor__schedule_title title-h4">График работы</p>
+                        <ul class="page-doctor__schedule_list">
+                            <li class="page-doctor__schedule_item">
+                                <p class="page-doctor__schedule_day">Понедельник</p>
+                                <p class="page-doctor__schedule_time">08:00-18:00</p>
+                            </li>
+                            <li class="page-doctor__schedule_item">
+                                <p class="page-doctor__schedule_day">Вторник</p>
+                                <p class="page-doctor__schedule_time">08:00-18:00</p>
+                            </li>
+                            <li class="page-doctor__schedule_item">
+                                <p class="page-doctor__schedule_day">Среда</p>
+                                <p class="page-doctor__schedule_time">08:00-18:00</p>
+                            </li>
+                            <li class="page-doctor__schedule_item">
+                                <p class="page-doctor__schedule_day">Четверг</p>
+                                <p class="page-doctor__schedule_time">08:00-18:00</p>
+                            </li>
+                            <li class="page-doctor__schedule_item">
+                                <p class="page-doctor__schedule_day">Пятница</p>
+                                <p class="page-doctor__schedule_time">08:00-18:00</p>
+                            </li>
+                            <li class="page-doctor__schedule_item">
+                                <p class="page-doctor__schedule_day">Суббота</p>
+                                <p class="page-doctor__schedule_time">Выходной</p>
+                            </li>
+                            <li class="page-doctor__schedule_item">
+                                <p class="page-doctor__schedule_day">Воскресенье</p>
+                                <p class="page-doctor__schedule_time">Выходной</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div></div>
+                    <div class="page-doctor__education">
+                        <p class="page-doctor__education_title title-h4">Образование</p>
+                        <ul class="page-doctor__education_list">
+                            <li class="page-doctor__education_item">
+                                <div class="page-doctor__education_top">
+                                    <p class="page-doctor__education__year">2018</p>
+                                    <p class="page-doctor__education__text">Высшее образование</p>
+                                </div>
+                                <p class="page-doctor__education_university">Первый Московский государственный медицинский университет имени И. М. Сеченова по направлению «Клиническая психология»</p>
+                            </li>
+
+                            <li class="page-doctor__education_item">
+                                <div class="page-doctor__education_top">
+                                    <p class="page-doctor__education__year">2021</p>
+                                    <p class="page-doctor__education__text">Переподготовка</p>
+                                </div>
+                                <p class="page-doctor__education_university">Первый Московский государственный медицинский университет имени И. М. Сеченова по направлению «Клиническая психология»</p>
+                            </li>
+
+                            <li class="page-doctor__education_item">
+                                <div class="page-doctor__education_top">
+                                    <p class="page-doctor__education__year">2023</p>
+                                    <p class="page-doctor__education__text">Повышения квалификации</p>
+                                </div>
+                                <p class="page-doctor__education_university">Первый Московский государственный медицинский университет имени И. М. Сеченова по направлению «Клиническая психология»</p>
+                            </li>
+
+                            <li class="page-doctor__education_item">
+                                <div class="page-doctor__education_top">
+                                    <p class="page-doctor__education__year">2024</p>
+                                    <p class="page-doctor__education__text">Высшее образование</p>
+                                </div>
+                                <p class="page-doctor__education_university">Первый Московский государственный медицинский университет имени И. М. Сеченова по направлению «Клиническая психология»</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="license container-big">
+            <div class="section-big">
+                <div class="container">
+                    <div class="license__row">
+                        <div class="license__left">
+                            <div class="license__top">
+                                <p class="above-title above-title--right">Надежность подтверждена</p>
+                                <h2 class="license__title title title-right">Дипломы и сертификаты врача</h2>                                 
+                            </div>
+
+                            <div class="license__pagination">
+                                <div class="license__swiper-btns">
+                                    <div class="license__swiper-button-prev swiper-button-prev"></div>    
+                                    <div class="license__swiper-button-next swiper-button-next"></div>                                    
+                                </div>
+                                <div class="license__swiper-pagination swiper-pagination"></div> 
+                            </div>                              
+                        </div>
+
+                        <div class="license__right">
+                            <div class="license__swiper swiper licenseSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="license__swiper-slide swiper-slide">
+                                        <a href="assets/img/sections/license/license-1.jpg" class="rotate-item animation-item  img-animation" data-fancybox="license">
+                                            <picture class="gallery__picture">
+                                                <source srcset="assets/img/sections/license/license-1.webp" type="image/webp">
+                                                <img src="assets/img/sections/license/license-1.jpg" loading="lazy">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="license__swiper-slide swiper-slide">
+                                        <a href="assets/img/sections/license/license-1.jpg" class="rotate-item animation-item  img-animation" data-fancybox="license">
+                                            <picture class="gallery__picture">
+                                                <source srcset="assets/img/sections/license/license-1.webp" type="image/webp">
+                                                <img src="assets/img/sections/license/license-1.jpg" loading="lazy">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="license__swiper-slide swiper-slide">
+                                        <a href="assets/img/sections/license/license-1.jpg" class="rotate-item animation-item  img-animation" data-fancybox="license">
+                                            <picture class="gallery__picture">
+                                                <source srcset="assets/img/sections/license/license-1.webp" type="image/webp">
+                                                <img src="assets/img/sections/license/license-1.jpg" loading="lazy">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="license__swiper-slide swiper-slide">
+                                        <a href="assets/img/sections/license/license-1.jpg" class="rotate-item animation-item  img-animation" data-fancybox="license">
+                                            <picture class="gallery__picture">
+                                                <source srcset="assets/img/sections/license/license-1.webp" type="image/webp">
+                                                <img src="assets/img/sections/license/license-1.jpg" loading="lazy">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="license__swiper-slide swiper-slide">
+                                        <a href="assets/img/sections/license/license-1.jpg" class="rotate-item animation-item  img-animation" data-fancybox="license">
+                                            <picture class="gallery__picture">
+                                                <source srcset="assets/img/sections/license/license-1.webp" type="image/webp">
+                                                <img src="assets/img/sections/license/license-1.jpg" loading="lazy">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="license__swiper-slide swiper-slide">
+                                        <a href="assets/img/sections/license/license-1.jpg" class="rotate-item animation-item  img-animation" data-fancybox="license">
+                                            <picture class="gallery__picture">
+                                                <source srcset="assets/img/sections/license/license-1.webp" type="image/webp">
+                                                <img src="assets/img/sections/license/license-1.jpg" loading="lazy">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="license__swiper-slide swiper-slide">
+                                        <a href="assets/img/sections/license/license-1.jpg" class="rotate-item animation-item  img-animation" data-fancybox="license">
+                                            <picture class="gallery__picture">
+                                                <source srcset="assets/img/sections/license/license-1.webp" type="image/webp">
+                                                <img src="assets/img/sections/license/license-1.jpg" loading="lazy">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="license__wrapper--mobile">
+                                <div class="license__pagination license__pagination--mobile">
+                                    <!-- <div class="license__swiper-pagination swiper-pagination"></div>  -->
+                                    <div class="license__swiper-btns">
+                                        <div class="license__swiper-button-prev swiper-button-prev"></div>    
+                                        <div class="license__swiper-button-next swiper-button-next"></div>                                    
+                                    </div>
+                                </div>                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="license__section-bg section-bg">
+                    <img src="assets/img/icons/section-bg.svg">
+                    <img src="assets/img/icons/section-bg.svg">
+                    <img src="assets/img/icons/section-bg.svg">
+                    <img src="assets/img/icons/section-bg.svg">
+                </div> 
+            </div>
+        </section>
+
+        <section class="page-doctor_comments comments section">
+            <div class="container">
+                <div class="comments__top">
+                    <p class="above-title">Отзывы наших пациентов — лучшая рекомендация</p>
+                    <h2 class="comments__title title">Отзывы пациентов</h2>                    
+                </div>
+
+                <div class="comments__card">
+                    <div class="comments__row">
+                        <div class="comments__left">
+                            <div class="comments__swiper swiper commentsSwiper">
+                                <div class="swiper-wrapper">
+
+                                    <div class="comments__swiper-slide swiper-slide">
+                                        <div class="comments__comment">
+                                            <img src="assets/img/icons/comment-bg.svg" class="comments__comment_bg">
+                                            <div class="comment__content">
+                                                <div class="comment__top">
+                                                    <p class="comment__mark comment__mark--red">Наркомания</p>
+                                                    <p class="comment__mark comment__mark--blue">Рада результату</p>
+                                                </div>
+                                                <p class="comment__text">Есть над чем задуматься: активно развивающиеся страны третьего мира, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут ассоциативно распределены по отраслям. Вот вам яркий пример современных тенденций — экономическая повестка сегодняшнего дня однозначно определяет каждого участника как способного принимать собственные решения касаемо приоретизации разума над эмоциями. Кстати,  базовые сценарии поведения пользователей и по сей день остаются уделом либералов, которые жаждут быть своевременно верифицированы! </p>
+                                                <button class="comment__more">Читать все</button>
+                                            </div>
+                                            
+                                            <div class="comment__bottom">
+                                                <div class="comment__author">
+                                                    <p class="comment__author_name">Инна Геннадьевна</p>
+                                                    <p class="comment__author_city">Нижний Новгород, 48 лет</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comments__swiper-slide swiper-slide">
+                                        <div class="comments__comment">
+                                            <img src="assets/img/icons/comment-bg.svg" class="comments__comment_bg">
+                                            <div class="comment__content">
+                                                <div class="comment__top">
+                                                    <p class="comment__mark comment__mark--red">Наркомания</p>
+                                                    <p class="comment__mark comment__mark--blue">Рада результату</p>
+                                                </div>
+                                                <p class="comment__text">Есть над чем задуматься: активно развивающиеся страны третьего мира, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут ассоциативно распределены по отраслям. Вот вам яркий пример современных тенденций — экономическая повестка сегодняшнего дня однозначно определяет каждого участника как способного принимать собственные решения касаемо приоретизации разума над эмоциями. Кстати,  базовые сценарии поведения пользователей и по сей день остаются уделом либералов, которые жаждут быть своевременно верифицированы! </p>
+                                                <button class="comment__more">Читать все</button>
+                                            </div>
+                                            
+                                            <div class="comment__bottom">
+                                                <div class="comment__author">
+                                                    <p class="comment__author_name">Инна Геннадьевна</p>
+                                                    <p class="comment__author_city">Нижний Новгород, 48 лет</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comments__swiper-slide swiper-slide">
+                                        <div class="comments__comment">
+                                            <img src="assets/img/icons/comment-bg.svg" class="comments__comment_bg">
+                                            <div class="comment__content">
+                                                <div class="comment__top">
+                                                    <p class="comment__mark comment__mark--red">Наркомания</p>
+                                                    <p class="comment__mark comment__mark--blue">Рада результату</p>
+                                                </div>
+                                                <p class="comment__text">Есть над чем задуматься: активно развивающиеся страны третьего мира, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут ассоциативно распределены по отраслям. Вот вам яркий пример современных тенденций — экономическая повестка сегодняшнего дня однозначно определяет каждого участника как способного принимать собственные решения касаемо приоретизации разума над эмоциями. Кстати,  базовые сценарии поведения пользователей и по сей день остаются уделом либералов, которые жаждут быть своевременно верифицированы! </p>
+                                                <button class="comment__more">Читать все</button>
+                                            </div>
+                                            
+                                            <div class="comment__bottom">
+                                                <div class="comment__author">
+                                                    <p class="comment__author_name">Инна Геннадьевна</p>
+                                                    <p class="comment__author_city">Нижний Новгород, 48 лет</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="comments__swiper-btns">
+                                    <div class="comments__swiper-pagination swiper-pagination"></div>
+                                    <div class="comments__btns">
+                                        <div class="comments__swiper-button-prev swiper-button-prev"></div>
+                                        <div class="comments__swiper-button-next swiper-button-next"></div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comments__right">
+                            <form action="" class="comments__form form">
+                                <p class="comments__form_title">Оставьте свой отзыв о работе врачей</p>
+                                <div class="comments__inputs">
+                                    <span class="form-incorrect">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="20" height="20" rx="10" fill="#FFEBEE" />
+                                            <path d="M6.53576 12.4901C6.3877 12.6382 6.30452 12.839 6.30452 13.0484C6.30452 13.2577 6.3877 13.4585 6.53576 13.6066C6.68381 13.7547 6.88462 13.8378 7.094 13.8378C7.30338 13.8378 7.50418 13.7547 7.65224 13.6066L10.0713 11.1876L12.4903 13.6066C12.6384 13.7547 12.8392 13.8378 13.0486 13.8378C13.258 13.8378 13.4588 13.7547 13.6068 13.6066C13.7549 13.4585 13.8381 13.2577 13.8381 13.0484C13.8381 12.839 13.7549 12.6382 13.6068 12.4901L11.1878 10.0711L13.6068 7.65202C13.7549 7.50396 13.8381 7.30316 13.8381 7.09378C13.8381 6.88439 13.7549 6.68359 13.6068 6.53553C13.4588 6.38748 13.258 6.3043 13.0486 6.3043C12.8392 6.3043 12.6384 6.38748 12.4903 6.53553L10.0713 8.95458L7.65224 6.53553C7.50418 6.38748 7.30338 6.3043 7.094 6.3043C6.88462 6.3043 6.68381 6.38748 6.53576 6.53553C6.3877 6.68359 6.30452 6.88439 6.30452 7.09378C6.30452 7.30316 6.3877 7.50396 6.53576 7.65202L8.9548 10.0711L6.53576 12.4901Z" fill="#EF4665" />
+                                        </svg>
+                                        Некорректный ввод
+                                    </span>
+                                    <label for="comment__name" class="comments__label form-text">Ваше имя</label>
+                                    <input type="text" id="comment__name" class="comments__input form-input" placeholder="Введите имя">                            
+                                </div>
+                                <div class="comments__inputs">
+                                    <label for="comment__text" class="comments__label form-text">Ваш телефон</label>
+                                    <textarea id="comment__text" class="comments__input form-textarea" placeholder="Введите ваше сообщение"></textarea>                          
+                                </div>
+                                <button class="standart-btn akcent-btn comments__btn">Вызвать врача</button>
+                                <p class="comments__form_politic form-politic">Отправляя заявку, вы соглашаетесь с <a href="#" rel="nofollow">политикой конфиденциальности</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-doctor_articles section">
+            <div class="container">
+                <div class="doctors__top">
+                    <p class="above-title">Полезные советы и экспертные мнения</p>
+                    <h2 class="doctors__title title">Статьи врача</h2>                    
+                </div>
+
+                <div class="doctors__cards">
+                    <div class="doctors__swiper swiper doctorsArticleSwiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="doctors__swiper-slide swiper-slide">
+                                <div class="articles__card">
+                                    <img src="assets/img/sections/articles/article-1.jpg" alt="" class="article__img">
+                                    <div class="article__top">
+                                        <p class="article__top_text">Наркология</p>
+                                        <p class="article__top_data">11.02.204</p>
+                                    </div>
+                                    <div class="article__content">
+                                        <p class="page-articles__article_title">Вот вам яркий пример современных тенденций — граница обучения</p>
+                                        <p class="page-articles__article_text">В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности не даёт нам иного выбора, кроме определения стандартных подходов.</p>
+                                    </div>
+                                    <a href="#" class="page-articles__article_link">
+                                        <span>Читать статью</span>
+                                        <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 10.25C0.585786 10.25 0.25 10.5858 0.25 11C0.25 11.4142 0.585786 11.75 1 11.75L1 10.25ZM11.5303 11.5303C11.8232 11.2374 11.8232 10.7626 11.5303 10.4697L6.75736 5.6967C6.46447 5.40381 5.98959 5.40381 5.6967 5.6967C5.40381 5.98959 5.40381 6.46447 5.6967 6.75736L9.93934 11L5.6967 15.2426C5.40381 15.5355 5.40381 16.0104 5.6967 16.3033C5.98959 16.5962 6.46447 16.5962 6.75736 16.3033L11.5303 11.5303ZM1 11.75L11 11.75L11 10.25L1 10.25L1 11.75Z" fill="#0082D6" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="doctors__swiper-slide swiper-slide">
+                                <div class="articles__card">
+                                    <img src="assets/img/sections/articles/article-1.jpg" alt="" class="article__img">
+                                    <div class="article__top">
+                                        <p class="article__top_text">Наркология</p>
+                                        <p class="article__top_data">11.02.204</p>
+                                    </div>
+                                    <div class="article__content">
+                                        <p class="page-articles__article_title">Вот вам яркий пример современных тенденций — граница обучения</p>
+                                        <p class="page-articles__article_text">В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности не даёт нам иного выбора, кроме определения стандартных подходов.</p>
+                                    </div>
+                                    <a href="#" class="page-articles__article_link">
+                                        <span>Читать статью</span>
+                                        <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 10.25C0.585786 10.25 0.25 10.5858 0.25 11C0.25 11.4142 0.585786 11.75 1 11.75L1 10.25ZM11.5303 11.5303C11.8232 11.2374 11.8232 10.7626 11.5303 10.4697L6.75736 5.6967C6.46447 5.40381 5.98959 5.40381 5.6967 5.6967C5.40381 5.98959 5.40381 6.46447 5.6967 6.75736L9.93934 11L5.6967 15.2426C5.40381 15.5355 5.40381 16.0104 5.6967 16.3033C5.98959 16.5962 6.46447 16.5962 6.75736 16.3033L11.5303 11.5303ZM1 11.75L11 11.75L11 10.25L1 10.25L1 11.75Z" fill="#0082D6" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="doctors__swiper-slide swiper-slide">
+                                <div class="articles__card">
+                                    <img src="assets/img/sections/articles/article-1.jpg" alt="" class="article__img">
+                                    <div class="article__top">
+                                        <p class="article__top_text">Наркология</p>
+                                        <p class="article__top_data">11.02.204</p>
+                                    </div>
+                                    <div class="article__content">
+                                        <p class="page-articles__article_title">Вот вам яркий пример современных тенденций — граница обучения</p>
+                                        <p class="page-articles__article_text">В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности не даёт нам иного выбора, кроме определения стандартных подходов.</p>
+                                    </div>
+                                    <a href="#" class="page-articles__article_link">
+                                        <span>Читать статью</span>
+                                        <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 10.25C0.585786 10.25 0.25 10.5858 0.25 11C0.25 11.4142 0.585786 11.75 1 11.75L1 10.25ZM11.5303 11.5303C11.8232 11.2374 11.8232 10.7626 11.5303 10.4697L6.75736 5.6967C6.46447 5.40381 5.98959 5.40381 5.6967 5.6967C5.40381 5.98959 5.40381 6.46447 5.6967 6.75736L9.93934 11L5.6967 15.2426C5.40381 15.5355 5.40381 16.0104 5.6967 16.3033C5.98959 16.5962 6.46447 16.5962 6.75736 16.3033L11.5303 11.5303ZM1 11.75L11 11.75L11 10.25L1 10.25L1 11.75Z" fill="#0082D6" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="doctors__swiper-slide swiper-slide">
+                                <div class="articles__card">
+                                    <img src="assets/img/sections/articles/article-1.jpg" alt="" class="article__img">
+                                    <div class="article__top">
+                                        <p class="article__top_text">Наркология</p>
+                                        <p class="article__top_data">11.02.204</p>
+                                    </div>
+                                    <div class="article__content">
+                                        <p class="page-articles__article_title">Вот вам яркий пример современных тенденций — граница обучения</p>
+                                        <p class="page-articles__article_text">В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности не даёт нам иного выбора, кроме определения стандартных подходов.</p>
+                                    </div>
+                                    <a href="#" class="page-articles__article_link">
+                                        <span>Читать статью</span>
+                                        <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 10.25C0.585786 10.25 0.25 10.5858 0.25 11C0.25 11.4142 0.585786 11.75 1 11.75L1 10.25ZM11.5303 11.5303C11.8232 11.2374 11.8232 10.7626 11.5303 10.4697L6.75736 5.6967C6.46447 5.40381 5.98959 5.40381 5.6967 5.6967C5.40381 5.98959 5.40381 6.46447 5.6967 6.75736L9.93934 11L5.6967 15.2426C5.40381 15.5355 5.40381 16.0104 5.6967 16.3033C5.98959 16.5962 6.46447 16.5962 6.75736 16.3033L11.5303 11.5303ZM1 11.75L11 11.75L11 10.25L1 10.25L1 11.75Z" fill="#0082D6" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="doctors__swiper-slide swiper-slide">
+                                <div class="articles__card">
+                                    <img src="assets/img/sections/articles/article-1.jpg" alt="" class="article__img">
+                                    <div class="article__top">
+                                        <p class="article__top_text">Наркология</p>
+                                        <p class="article__top_data">11.02.204</p>
+                                    </div>
+                                    <div class="article__content">
+                                        <p class="page-articles__article_title">Вот вам яркий пример современных тенденций — граница обучения</p>
+                                        <p class="page-articles__article_text">В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности не даёт нам иного выбора, кроме определения стандартных подходов.</p>
+                                    </div>
+                                    <a href="#" class="page-articles__article_link">
+                                        <span>Читать статью</span>
+                                        <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 10.25C0.585786 10.25 0.25 10.5858 0.25 11C0.25 11.4142 0.585786 11.75 1 11.75L1 10.25ZM11.5303 11.5303C11.8232 11.2374 11.8232 10.7626 11.5303 10.4697L6.75736 5.6967C6.46447 5.40381 5.98959 5.40381 5.6967 5.6967C5.40381 5.98959 5.40381 6.46447 5.6967 6.75736L9.93934 11L5.6967 15.2426C5.40381 15.5355 5.40381 16.0104 5.6967 16.3033C5.98959 16.5962 6.46447 16.5962 6.75736 16.3033L11.5303 11.5303ZM1 11.75L11 11.75L11 10.25L1 10.25L1 11.75Z" fill="#0082D6" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="doctors__swiper-slide swiper-slide">
+                                <div class="articles__card">
+                                    <img src="assets/img/sections/articles/article-1.jpg" alt="" class="article__img">
+                                    <div class="article__top">
+                                        <p class="article__top_text">Наркология</p>
+                                        <p class="article__top_data">11.02.204</p>
+                                    </div>
+                                    <div class="article__content">
+                                        <p class="page-articles__article_title">Вот вам яркий пример современных тенденций — граница обучения</p>
+                                        <p class="page-articles__article_text">В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности не даёт нам иного выбора, кроме определения стандартных подходов.</p>
+                                    </div>
+                                    <a href="#" class="page-articles__article_link">
+                                        <span>Читать статью</span>
+                                        <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 10.25C0.585786 10.25 0.25 10.5858 0.25 11C0.25 11.4142 0.585786 11.75 1 11.75L1 10.25ZM11.5303 11.5303C11.8232 11.2374 11.8232 10.7626 11.5303 10.4697L6.75736 5.6967C6.46447 5.40381 5.98959 5.40381 5.6967 5.6967C5.40381 5.98959 5.40381 6.46447 5.6967 6.75736L9.93934 11L5.6967 15.2426C5.40381 15.5355 5.40381 16.0104 5.6967 16.3033C5.98959 16.5962 6.46447 16.5962 6.75736 16.3033L11.5303 11.5303ZM1 11.75L11 11.75L11 10.25L1 10.25L1 11.75Z" fill="#0082D6" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="doctors__swiper-btns">
+                        <div class="doctors__swiper-button-prev swiper-button-prev swiper-button-prev--white"></div>    
+                        <div class="doctors__swiper-pagination swiper-pagination"></div>
+                        <div class="doctors__swiper-button-next swiper-button-next swiper-button-next--white"></div>                                    
+                    </div> 
+
+                </div>
+            </div>
+        </section>
+
+        <section class="first-consult container-big">
+            <div class="section-big form-section-big">
+                <div class="container">
+                    <div class="first-consult__top">
+                        <h2 class="first-consult__title title form-title">Оставьте заявку и получите первичную консультацию <span>бесплатно</span></h2>
+                        <p class="first-consult__subtitle form-subtitle">Позвоните сейчас и получите профессиональную консультацию бесплатно. Мы не навязываем услуги. Все звонки анонимны</p>
+                    </div>
+                    <form action="" class="first-consult__form">
+                        <div class="first-consult__inputs">
+                            <span class="form-incorrect">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="20" height="20" rx="10" fill="#FFEBEE" />
+                                    <path d="M6.53576 12.4901C6.3877 12.6382 6.30452 12.839 6.30452 13.0484C6.30452 13.2577 6.3877 13.4585 6.53576 13.6066C6.68381 13.7547 6.88462 13.8378 7.094 13.8378C7.30338 13.8378 7.50418 13.7547 7.65224 13.6066L10.0713 11.1876L12.4903 13.6066C12.6384 13.7547 12.8392 13.8378 13.0486 13.8378C13.258 13.8378 13.4588 13.7547 13.6068 13.6066C13.7549 13.4585 13.8381 13.2577 13.8381 13.0484C13.8381 12.839 13.7549 12.6382 13.6068 12.4901L11.1878 10.0711L13.6068 7.65202C13.7549 7.50396 13.8381 7.30316 13.8381 7.09378C13.8381 6.88439 13.7549 6.68359 13.6068 6.53553C13.4588 6.38748 13.258 6.3043 13.0486 6.3043C12.8392 6.3043 12.6384 6.38748 12.4903 6.53553L10.0713 8.95458L7.65224 6.53553C7.50418 6.38748 7.30338 6.3043 7.094 6.3043C6.88462 6.3043 6.68381 6.38748 6.53576 6.53553C6.3877 6.68359 6.30452 6.88439 6.30452 7.09378C6.30452 7.30316 6.3877 7.50396 6.53576 7.65202L8.9548 10.0711L6.53576 12.4901Z" fill="#EF4665" />
+                                </svg>
+                                Некорректный ввод
+                            </span>
+                            <label for="first-consult__name" class="first-consult__label form-text">Ваше имя</label>
+                            <input type="text" id="first-consult__name" class="first-consult__input form-input" placeholder="Введите имя">                            
+                        </div>
+
+                        <div class="first-consult__inputs">
+                            <label for="first-consult__tel" class="first-consult__label form-text">Ваш телефон</label>
+                            <input type="tel" id="first-consult__tel" class="first-consult__input form-input" placeholder="+7 (___) ___-__-__">                            
+                        </div>
+
+
+                        <button class="standart-btn akcent-btn first-consult__btn">Вызвать врача</button>
+                        <p class="first-consult__form_politic form-politic">Отправляя заявку, вы соглашаетесь с <a href="#" rel="nofollow">политикой конфиденциальности</a></p>
+                    </form>
+
+                    <div class="form__bg">
+                        <img src="assets/img/form-bg.svg" alt="" class="form__bg-img">
+                        <img src="assets/img/form-bg.svg" alt="" class="form__bg-img">
+                        <img src="assets/img/form-bg.svg" alt="" class="form__bg-img">
+                        <img src="assets/img/form-bg.svg" alt="" class="form__bg-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container-big">
+        <div class="footer__section-big section-big">
+            <div class="container">
+                <div class="footer__top">
+                    <div class="footer__top_right">
+                        <img src="assets/img/Logo.svg" alt="" class="footer__logo logo">
+                        <button class="standart-btn white-btn footer__search--mobile popup-btn"  data-path="popup__search">
+                            <img src="assets/img/icons/search.svg">
+                        </button>                        
+                    </div>
+
+                    <div class="footer__top_btns">
+                        <button class="standart-btn white-btn footer__search popup-btn" data-path="popup__search">
+                            <img src="assets/img/icons/search.svg">
+                        </button>
+                        <button class="standart-btn footer__btn popup-btn" data-path="popup-call">Бесплатная консультация</button>
+                    </div>
+                </div>
+
+                <div class="footer__contacts">
+                    <div class="footer__contacts_item footer__adres">
+                        <img src="assets/img/icons/location.svg" class="footer__contacts_img">
+                        <p class="footer__contacts_text">Адрес call-центра:</p>
+                        <p class="footer__contacts_info--adres"><a href="#" class="popup-btn" data-path="popup__city">Новокузнецк,</a> ул. Степана Разина, д. 40/89</p>
+                    </div>
+                    <div class="footer__contacts_item footer__mail">
+                        <img src="assets/img/icons/mail.svg" class="footer__contacts_img">
+                        <p class="footer__contacts_text">Электронная почта:</p>
+                        <a href="#" class="footer__contacts_info--mail">info@centr-narkomanii.ru</a>
+                    </div>
+                    <div class="footer__contacts_item footer__phone">
+                        <img src="assets/img/icons/phone.svg" class="footer__contacts_img">
+                        <p class="footer__contacts_text">Номер горячей линии:</p>
+                        <a href="tel:88000000000" class="footer__contacts_info--phone">8 (800) 000-00-00</a>
+                    </div>
+
+                    <div class="footer__contacts_item footer__network">
+                        <a href="#" class="footer__network_link">
+                            <img src="assets/img/icons/Vk.svg" alt="vk" class="header__top_contact">                                    
+                        </a>
+                        <a href="#" class="footer__network_link">
+                            <img src="assets/img/icons/Odnoklassniki.svg" alt="ok" class="header__top_contact">                                    
+                        </a>
+                        <a href="#" class="footer__network_link">
+                            <img src="assets/img/icons/Telegram.svg" alt="tg" class="header__top_contact">
+                        </a>
+                    </div>   
+                </div>
+
+                <div class="footer__menu">
+                    <div class="footer__menu_item">
+                        <p class="footer__menu_title">Лечение наркозависимости</p>
+                        <ul class="footer__menu_lists">
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Снятие ломки</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">УБОД</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Кодирование от наркозависимости</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Реабилитация наркоманов</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Лечение наркозависимых</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Наркологический центр</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__menu_item">
+                        <p class="footer__menu_title">Вывод из запоя</p>
+                        <ul class="footer__menu_lists">
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Вывод из запоя на дому</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Капельница от запоя</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Нарколог на дом</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__menu_item">
+                        <p class="footer__menu_title">Кодирование</p>
+                        <ul class="footer__menu_lists">
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Кодирование от алкоголизма</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Кодирование от наркомании</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Кодирование Вивитролом</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Кодирование Торпедо</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Кодирование методом Довженко</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Кодирование Уколом</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__menu_item">
+                        <p class="footer__menu_title">Лечение алкоголизма</p>
+                        <ul class="footer__menu_lists">
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Лечение алкоголизма</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Лечение пивного алкоголизма</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Лечение женского алкоголизма</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Лечение алкоголизма в стационаре</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Принудительное лечение</a></li>
+                            <li class="footer__menu_list"><a href="#" class="footer__menu_link">Кодирование алкоголизма</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__pay">
+                    <p class="footer__pay_title">Способы оплаты</p>
+                    <ul class="footer__pay_list">
+                        <li class="footer__pay_item">
+                            <img src="assets/img/icons/footer-pay-1.svg" alt="">
+                            <p class="footer__pay_text">Банковские карты</p>
+                        </li>
+                        <li class="footer__pay_item">
+                            <img src="assets/img/icons/footer-pay-2.svg" alt="">
+                            <p class="footer__pay_text">Банковские переводы</p>
+                        </li>
+                        <li class="footer__pay_item">
+                            <img src="assets/img/icons/footer-pay-3.svg" alt="">
+                            <p class="footer__pay_text">Наличный расчет </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__bottom">
+                    <div class="footer__bottom_left">
+                        <p class="footer__bottom_text">
+                            ООО "СТАРМЕД"<br>
+                            ИНН: 5262384949, ОГРН: 1225200009110 <br>
+                            Лицензия № Л041-01164-52/01066266 от 19.02.2024
+                        </p>
+                    </div>
+                    <div class="footer__bottom_right">
+                        <p class="footer__bottom_text">
+                            Стационарные услуги оказываются наркологической клиникой - партнёром ООО “Югэкосервис”, ИНН: 6161094681, лицензия ЛО-041-01050-61/00347983 по адресу: Ростов-на-Дону, ул. Красноармейская, д. 170
+                        </p>
+                    </div>
+                </div>
+            </div>                
+        </div>
+    </footer>
+
+
+
+
+    <!-- Pop-up -->
+    <div class="popup" data-target="popup-call"> 
+        <div class="popup__body">
+            <div class="popup__content">
+                <picture class="close-popup">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture> 
+                <div class="popup__top">
+                    <p class="popup__title original-title">Оставьте вашу заявку</p>
+                    <p class="popup__subtitle">Наш специалист перезвонит вам в ближайшее время</p>                    
+                </div>
+                <form class="popup__form">
+                        <label for="popup-name"  class="form-text popup__label">Ваше имя</label>
+                        <input id="popup-name" type="text" class="form-input popup__input" placeholder="Введите имя" required>
+
+                        <label for="popup-tel"  class="form-text popup__label">Ваш номер телефона</label>
+                        <input id="popup-tel" type="tel" class="form-input popup__input" placeholder="Введите номер телефона" required>
+
+                        <button class="standart-btn akcent-btn popup__btn popup-btn" type="submit" ><span>Отправить</span></button>
+                        <p class="form-politic popup__politic">
+                            Отправляя заявку, вы соглашаетесь с <a href="#" rel="nofollow">политикой конфиденциальности</a>
+                        </p>
+                </form>
+
+                <div class="popup__bg section-bg">
+                    <img src="assets/img/icons/section-bg.svg">
+                    <img src="assets/img/icons/section-bg.svg">
+                    <img src="assets/img/icons/section-bg.svg">
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" data-target="popup-comment"> 
+        <div class="popup__body">
+            <div class="popup__content">
+                <picture class="close-popup">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture> 
+                <div class="popup__top">
+                    <p class="popup__title original-title">Оставьте ваш отзыв </p>
+                    <p class="popup__subtitle">Ваше мнение для улучшения работы нашей клиники и наших специалистов</p>                    
+                </div>
+                <form class="popup__form">
+                        <label for="popup-name"  class="form-text popup__label">Ваше имя</label>
+                        <input id="popup-name" type="text" class="form-input popup__input" placeholder="Введите имя" required>
+
+                        <label for="popup-message"  class="form-text popup__label">Сообщение</label>
+                        <textarea id="popup-message" class="form-textarea popup__textarea" placeholder="Введите ваше сообщение" required></textarea>
+                        
+                        <button class="standart-btn akcent-btn popup__btn popup-btn" type="submit" data-path="popup-ok"><span>Оставить отзыв</span></button>
+                        <p class="form-politic popup__politic">
+                            Отправляя заявку, вы соглашаетесь с <a href="#" rel="nofollow">политикой конфиденциальности</a>
+                        </p>
+                </form>
+                <div class="popup__bg section-bg">
+                    <img src="assets/img/icons/section-bg.svg">
+                    <img src="assets/img/icons/section-bg.svg">
+                    <img src="assets/img/icons/section-bg.svg">
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" data-target="popup-ok"> 
+        <div class="popup__body">
+            <div class="popup__content">
+                <picture class="close-popup">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture> 
+
+                <div class="popup__top">
+                    <img src="assets/img/icons/popup-ok.svg" class="popup__img">
+                    <p class="popup__title original-title">Ваша заявка принята</p>
+                    <p class="popup__subtitle">Ожидайте звонка специалиста в ближайшее время!</p>                    
+                </div>
+                <div class="popup__bg section-bg">
+                    <img src="assets/img/icons/section-bg.svg">
+                    <img src="assets/img/icons/section-bg.svg">
+                    <img src="assets/img/icons/section-bg.svg">
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" data-target="popup-error"> 
+        <div class="popup__body">
+            <div class="popup__content">
+                <picture class="close-popup">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture> 
+
+                <div class="popup__top">
+                    <img src="assets/img/icons/popup-error.svg" class="popup__img">
+                    <p class="popup__title original-title">Ошибка отправления заявки</p>
+                    <p class="popup__subtitle">Ого! Вы похожи на робота! Попробуйте отправить заявку позже</p>                    
+                </div>
+                <div class="popup__bg section-bg">
+                    <img src="assets/img/icons/section-bg.svg">
+                    <img src="assets/img/icons/section-bg.svg">
+                    <img src="assets/img/icons/section-bg.svg">
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="popup popup__search" data-target="popup__search"> 
+        <div class="popup__body popup__body_search">
+            <div class="popup__content popup__content_search search-wrapper">
+
+                <picture  class="close-popup close-popup__search">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture>
+
+                <div class="container">
+                    <p class="popup__title popup__title_search">Поиск по сайту</p>
+                    <form class="popup__search-form">
+                        <input type="search" placeholder="Введите запрос" required class="popup__search_input"> 
+                        <button type="submit" class="popup__search_btn"><span>Поиск</span></button> 
+                    </form>
+
+                    <div class="popup__search-result none">
+                        <p class="popup__search-result_text">По вашему запросу найдено: <span>20</span></p>
+                        <ul class="popup__search-list search-list">
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Алкоголизм</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Алкоголизм</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Алкоголизм</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Алкоголизм</a><span>категория</span></li>
+                        </ul>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup popup__search" data-target="popup__city"> 
+        <div class="popup__body popup__body_search">
+            <div class="popup__content popup__content_search search-wrapper">
+    
+                <picture class="close-popup close-popup__search">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture>
+    
+                <div class="container">
+                    <p class="popup__title popup__title_search">Найдите ваш город</p>
+                    <form class="popup__search-form">
+                        <input type="search" placeholder="Введите запрос" required class="popup__search_input"> 
+                        <button type="submit" class="popup__search_btn"><span>Поиск</span></button> 
+                    </form>
+    
+                    <div class="popup__search-city">
+                        <p class="popup__search-result_text">Популярные города</p>
+                        <ul class="popup__search-city_list">
+                            <li class="popup__search-city_item"><a href="#" class="popup__search-city_link">Ростов-на-Дону</a></li>
+                            <li class="popup__search-city_item"><a href="#" class="popup__search-city_link">Архангельск</a></li>
+                            <li class="popup__search-city_item"><a href="#" class="popup__search-city_link">Новосибирск</a></li>
+                            <li class="popup__search-city_item"><a href="#" class="popup__search-city_link">Краснодар</a></li>
+                            <li class="popup__search-city_item"><a href="#" class="popup__search-city_link">Москва</a></li>
+                            <li class="popup__search-city_item"><a href="#" class="popup__search-city_link">Севастополь</a></li>
+                            <li class="popup__search-city_item"><a href="#" class="popup__search-city_link">Санкт-Петербург</a></li>
+                            <li class="popup__search-city_item"><a href="#" class="popup__search-city_link">Волгоград</a></li>
+                            <li class="popup__search-city_item"><a href="#" class="popup__search-city_link">Архангельск</a></li>
+                            <li class="popup__search-city_item"><a href="#" class="popup__search-city_link">Новосибирск</a></li>
+                            <li class="popup__search-city_item"><a href="#" class="popup__search-city_link">Краснодар</a></li>
+                            <li class="popup__search-city_item"><a href="#" class="popup__search-city_link">Волгоград</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="popup__search-result none">
+                        <p class="popup__search-result_text">По вашему запросу найдено: <span>20</span></p>
+                        <ul class="search-list popup__city-list popup__search-city_list">
+                            <li class="search-item popup__search-city_item"><a href="#" class="popup__search-city_link search-name">Москва</a></li>
+                            <li class="search-item popup__search-city_item"><a href="#" class="popup__search-city_link search-name">Ростов-на-Дону</a></li>
+                            <li class="search-item popup__search-city_item"><a href="#" class="popup__search-city_link search-name">Архангельск</a></li>
+                            <li class="search-item popup__search-city_item"><a href="#" class="popup__search-city_link search-name">Краснодар</a></li>
+                            <li class="search-item popup__search-city_item"><a href="#" class="popup__search-city_link search-name">Севастополь</a></li>
+                            <li class="search-item popup__search-city_item"><a href="#" class="popup__search-city_link search-name">Новосибирск</a></li>
+                            <li class="search-item popup__search-city_item"><a href="#" class="popup__search-city_link search-name">Волгоград</a></li>
+                            <li class="search-item popup__search-city_item"><a href="#" class="popup__search-city_link search-name">Москва</a></li>
+                            <li class="search-item popup__search-city_item"><a href="#" class="popup__search-city_link search-name">Санкт-Петербург</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
