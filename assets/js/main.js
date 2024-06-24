@@ -613,38 +613,3 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 /*  end search  */
-
-
-
-
-
-
-
-
-
-
-/*   Sidebar  */
-// window.onload = load;
-// function load() {
-//   let btnToggle = document.querySelector(".btn-toggle");
-//   let closeSidbar = document.querySelector(".close-sidebar");
-
-//   let sidebar = document.querySelector(".sidebar");
-//   let sidebarMenu = document.querySelector(".sidebar__menu");
-//   let sidebarSubmenu = document.querySelector(".tab-sidebar__submenu");
-
-//   btnToggle.addEventListener("click", (e) => {
-//     sidebar.classList.toggle("active");
-//     sidebarMenu.classList.toggle("active");
-//     sidebarSubmenu.classList.toggle("active");
-//     document.body.classList.toggle('lock');
-//   });
-
-//   closeSidbar.addEventListener("click", (e) => {
-//     sidebar.classList.remove("active");
-//     sidebarMenu.classList.remove("active");
-//     sidebarSubmenu.classList.remove("active");
-//     document.body.classList.remove('lock');
-//   });
-// }
-/*   End sidebar  */
